@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:elevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Activity Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:id="@+id/activityname"/>
+
+        <ImageView
+            android:id="@+id/activityimg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/activityname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/activityimg"
+            android:layout_marginStart="5dp"
+            android:text="short description"
+            android:layout_marginTop="5dp"
+            android:textStyle="italic"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/shortdec"
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
